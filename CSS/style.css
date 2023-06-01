@@ -1,0 +1,55 @@
+
+body{
+    min-height: 100vh;
+    background-color:rgb(236, 246, 254);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.sildebar {
+    position: Fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 270px;
+    background: rgb(239, 239, 239);
+    padding: 15px 10px;
+    box-shadow: 0 0 6px rgba(10, 10, 10, 1);
+}
+
+#sildebar-close{
+display: none;
+color: bisque;
+
+}
+.menu_container{
+    margin-top: 40px;
+    overflow-y: auto;
+    background: silver;
+    height: calc(100% - 82px);
+}
+.menu_title{
+    position: relative;
+    height: 50px;
+    min-width: 55px;
+    background-color: rgb(206, 255, 127);
+}
+.item{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    background-color: silver;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.link:hover{
+    color: beige;
+    background-color: rgb(88, 88, 217);
+}
+.link span{
+    white-space: nowrap;
+}
